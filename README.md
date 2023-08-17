@@ -9,6 +9,6 @@ In **Task 1(a)**, dynamics are included by assuming m1=m2=1.0 , and I1=I2=0.3333
 
 In **Task 2**, dynamics are included and 
 
-In **Task 3**, The fixed mean point chosen is (1,1) and the manipulator acts as a spring about that point. Initial displaced end effector point is (1,0).
+In **Task 3**, The fixed mean point chosen is (1,1) and the manipulator acts as a spring about that point. Initial displaced end effector point is (1,0). The Animation doesn't seem to work
 
 In**Task 4**, The workspace of the Manipulator are all points inside the Semi-Circular Figure that the End effector traces. The Dynamics are ignored.
