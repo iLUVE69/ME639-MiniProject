@@ -25,8 +25,8 @@ t_vals = np.linspace(0, 2 * np.pi, timesteps)
 fig, ax = plt.subplots()
 ax.set_xlim(-2, 2)
 ax.set_ylim(-2, 2)
-x3, y3 = 2.3, 0
-x4, y4 = 0, 2.3
+x3, y3 = 2.26472, 0
+x4, y4 = 0, 2.26472
 
 
 # Plot the line segment
