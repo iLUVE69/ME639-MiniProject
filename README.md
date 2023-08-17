@@ -1,5 +1,5 @@
 # ME639-MiniProject
-#**Author** = **Shashank Ghosh**, **21110196**
+**Author** = **Shashank Ghosh**, **21110196**
 
 This repository contains 5 python scripts that are the solution to Task 1, Task 1(a), Task 2, Task3 and Task 4.
 
@@ -11,4 +11,4 @@ In **Task 2**, dynamics are included and
 
 In **Task 3**, The fixed mean point chosen is (1,1) and the manipulator acts as a spring about that point. Initial displaced end effector point is (1,0).
 
-In**Task 4**, 
+In**Task 4**, The workspace of the Manipulator are all points inside the Semi-Circular Figure that the End effector traces. The Dynamics are ignored.
