@@ -6,15 +6,16 @@ from matplotlib.animation import FuncAnimation
 L1 = 1.0
 L2 = 1.0
 
-num_steps = 100
-theta1_range = np.linspace(0, 0.610865, num_steps) # 0.610865 = 35 degrees
-theta2_range = np.linspace(0, 2.53073, num_steps)   # 2.53073 = 145 degrees
+num_steps = 50
+theta1_range = np.linspace(0.610865,  2.53073, num_steps) # 0.610865 = 35 degrees
+theta2_range = np.linspace(0.610865, 2.53073, num_steps)   # 2.53073 = 145 degrees
 
 fig, ax = plt.subplots()
 line, = ax.plot([], [], 'o-', lw=2)
 path_line, = ax.plot([], [], 'r--', lw=1)  
 theta_text = ax.text(0.02, 0.95, '', transform=ax.transAxes)  
 ax.set_ylim(-2, 2)
+ax.set_xlim(-2, 2)
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_title('2R Robotic Arm Simulation')
